@@ -14,8 +14,6 @@
 		CC786DB72C6571AF00FE545E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC786DB62C6571AF00FE545E /* Assets.xcassets */; };
 		CC786DBA2C6571AF00FE545E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC786DB82C6571AF00FE545E /* LaunchScreen.storyboard */; };
 		CC786DC52C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */; };
-		CC786DCF2C6571AF00FE545E /* ConcurrentApiCall_AgueroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DCE2C6571AF00FE545E /* ConcurrentApiCall_AgueroUITests.swift */; };
-		CC786DD12C6571AF00FE545E /* ConcurrentApiCall_AgueroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DD02C6571AF00FE545E /* ConcurrentApiCall_AgueroUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 		CC786DC02C6571AF00FE545E /* ConcurrentApiCall-AgueroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConcurrentApiCall-AgueroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentApiCall_AgueroTests.swift; sourceTree = "<group>"; };
 		CC786DCA2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConcurrentApiCall-AgueroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC786DCE2C6571AF00FE545E /* ConcurrentApiCall_AgueroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentApiCall_AgueroUITests.swift; sourceTree = "<group>"; };
-		CC786DD02C6571AF00FE545E /* ConcurrentApiCall_AgueroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentApiCall_AgueroUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				CC786DAC2C6571AE00FE545E /* ConcurrentApiCall-Aguero */,
 				CC786DC32C6571AF00FE545E /* ConcurrentApiCall-AgueroTests */,
-				CC786DCD2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests */,
 				CC786DAB2C6571AE00FE545E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */,
 			);
 			path = "ConcurrentApiCall-AgueroTests";
-			sourceTree = "<group>";
-		};
-		CC786DCD2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CC786DCE2C6571AF00FE545E /* ConcurrentApiCall_AgueroUITests.swift */,
-				CC786DD02C6571AF00FE545E /* ConcurrentApiCall_AgueroUITestsLaunchTests.swift */,
-			);
-			path = "ConcurrentApiCall-AgueroUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC786DCF2C6571AF00FE545E /* ConcurrentApiCall_AgueroUITests.swift in Sources */,
-				CC786DD12C6571AF00FE545E /* ConcurrentApiCall_AgueroUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
