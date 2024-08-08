@@ -1,4 +1,3 @@
-Directions
 Write a simple application that defines and runs 2 requests simultaneously, each request is
 defined below:
 1. Every10thCharacterRequest:
