@@ -9,22 +9,18 @@
 /* Begin PBXBuildFile section */
 		CC786DAE2C6571AE00FE545E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DAD2C6571AE00FE545E /* AppDelegate.swift */; };
 		CC786DB02C6571AE00FE545E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DAF2C6571AE00FE545E /* SceneDelegate.swift */; };
-		CC786DB22C6571AE00FE545E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DB12C6571AE00FE545E /* ViewController.swift */; };
+		CC786DB22C6571AE00FE545E /* WebContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DB12C6571AE00FE545E /* WebContentViewController.swift */; };
 		CC786DB52C6571AE00FE545E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC786DB32C6571AE00FE545E /* Main.storyboard */; };
 		CC786DB72C6571AF00FE545E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC786DB62C6571AF00FE545E /* Assets.xcassets */; };
 		CC786DBA2C6571AF00FE545E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC786DB82C6571AF00FE545E /* LaunchScreen.storyboard */; };
 		CC786DC52C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */; };
+		CC786DDF2C6577F600FE545E /* WebContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DDE2C6577F600FE545E /* WebContentViewModel.swift */; };
+		CC786DE22C65784F00FE545E /* WebContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DE12C65784F00FE545E /* WebContentService.swift */; };
+		CC786DE42C6578FE00FE545E /* WebContentMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786DE32C6578FE00FE545E /* WebContentMockService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CC786DC12C6571AF00FE545E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC786DA22C6571AE00FE545E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC786DA92C6571AE00FE545E;
-			remoteInfo = "ConcurrentApiCall-Aguero";
-		};
-		CC786DCB2C6571AF00FE545E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC786DA22C6571AE00FE545E /* Project object */;
 			proxyType = 1;
@@ -37,14 +33,16 @@
 		CC786DAA2C6571AE00FE545E /* ConcurrentApiCall-Aguero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConcurrentApiCall-Aguero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC786DAD2C6571AE00FE545E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC786DAF2C6571AE00FE545E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC786DB12C6571AE00FE545E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC786DB12C6571AE00FE545E /* WebContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentViewController.swift; sourceTree = "<group>"; };
 		CC786DB42C6571AE00FE545E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC786DB62C6571AF00FE545E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC786DB92C6571AF00FE545E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC786DBB2C6571AF00FE545E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC786DC02C6571AF00FE545E /* ConcurrentApiCall-AgueroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConcurrentApiCall-AgueroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentApiCall_AgueroTests.swift; sourceTree = "<group>"; };
-		CC786DCA2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConcurrentApiCall-AgueroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC786DDE2C6577F600FE545E /* WebContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentViewModel.swift; sourceTree = "<group>"; };
+		CC786DE12C65784F00FE545E /* WebContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentService.swift; sourceTree = "<group>"; };
+		CC786DE32C6578FE00FE545E /* WebContentMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentMockService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +54,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CC786DBD2C6571AF00FE545E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC786DC72C6571AF00FE545E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,7 +77,6 @@
 			children = (
 				CC786DAA2C6571AE00FE545E /* ConcurrentApiCall-Aguero.app */,
 				CC786DC02C6571AF00FE545E /* ConcurrentApiCall-AgueroTests.xctest */,
-				CC786DCA2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +84,10 @@
 		CC786DAC2C6571AE00FE545E /* ConcurrentApiCall-Aguero */ = {
 			isa = PBXGroup;
 			children = (
+				CC786DE02C65783E00FE545E /* Network */,
 				CC786DAD2C6571AE00FE545E /* AppDelegate.swift */,
 				CC786DAF2C6571AE00FE545E /* SceneDelegate.swift */,
-				CC786DB12C6571AE00FE545E /* ViewController.swift */,
+				CC786DDD2C6577DA00FE545E /* Presentation */,
 				CC786DB32C6571AE00FE545E /* Main.storyboard */,
 				CC786DB62C6571AF00FE545E /* Assets.xcassets */,
 				CC786DB82C6571AF00FE545E /* LaunchScreen.storyboard */,
@@ -109,8 +100,26 @@
 			isa = PBXGroup;
 			children = (
 				CC786DC42C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift */,
+				CC786DE32C6578FE00FE545E /* WebContentMockService.swift */,
 			);
 			path = "ConcurrentApiCall-AgueroTests";
+			sourceTree = "<group>";
+		};
+		CC786DDD2C6577DA00FE545E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CC786DB12C6571AE00FE545E /* WebContentViewController.swift */,
+				CC786DDE2C6577F600FE545E /* WebContentViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CC786DE02C65783E00FE545E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CC786DE12C65784F00FE545E /* WebContentService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,24 +160,6 @@
 			productReference = CC786DC02C6571AF00FE545E /* ConcurrentApiCall-AgueroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC786DC92C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC786DDA2C6571AF00FE545E /* Build configuration list for PBXNativeTarget "ConcurrentApiCall-AgueroUITests" */;
-			buildPhases = (
-				CC786DC62C6571AF00FE545E /* Sources */,
-				CC786DC72C6571AF00FE545E /* Frameworks */,
-				CC786DC82C6571AF00FE545E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC786DCC2C6571AF00FE545E /* PBXTargetDependency */,
-			);
-			name = "ConcurrentApiCall-AgueroUITests";
-			productName = "ConcurrentApiCall-AgueroUITests";
-			productReference = CC786DCA2C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,10 +174,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					CC786DBF2C6571AF00FE545E = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = CC786DA92C6571AE00FE545E;
-					};
-					CC786DC92C6571AF00FE545E = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = CC786DA92C6571AE00FE545E;
 					};
@@ -207,7 +194,6 @@
 			targets = (
 				CC786DA92C6571AE00FE545E /* ConcurrentApiCall-Aguero */,
 				CC786DBF2C6571AF00FE545E /* ConcurrentApiCall-AgueroTests */,
-				CC786DC92C6571AF00FE545E /* ConcurrentApiCall-AgueroUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,13 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC786DC82C6571AF00FE545E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,7 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC786DB22C6571AE00FE545E /* ViewController.swift in Sources */,
+				CC786DB22C6571AE00FE545E /* WebContentViewController.swift in Sources */,
+				CC786DE22C65784F00FE545E /* WebContentService.swift in Sources */,
+				CC786DDF2C6577F600FE545E /* WebContentViewModel.swift in Sources */,
 				CC786DAE2C6571AE00FE545E /* AppDelegate.swift in Sources */,
 				CC786DB02C6571AE00FE545E /* SceneDelegate.swift in Sources */,
 			);
@@ -254,14 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC786DE42C6578FE00FE545E /* WebContentMockService.swift in Sources */,
 				CC786DC52C6571AF00FE545E /* ConcurrentApiCall_AgueroTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC786DC62C6571AF00FE545E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +247,6 @@
 			isa = PBXTargetDependency;
 			target = CC786DA92C6571AE00FE545E /* ConcurrentApiCall-Aguero */;
 			targetProxy = CC786DC12C6571AF00FE545E /* PBXContainerItemProxy */;
-		};
-		CC786DCC2C6571AF00FE545E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC786DA92C6571AE00FE545E /* ConcurrentApiCall-Aguero */;
-			targetProxy = CC786DCB2C6571AF00FE545E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,7 +395,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ConcurrentApiCall-Aguero/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -436,9 +406,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ignacia.aguero.ConcurrentApiCall-Aguero";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,7 +426,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ConcurrentApiCall-Aguero/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -464,9 +437,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ignacia.aguero.ConcurrentApiCall-Aguero";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -510,42 +486,6 @@
 			};
 			name = Release;
 		};
-		CC786DDB2C6571AF00FE545E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UHP85CV3Z7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ignacia.aguero.ConcurrentApiCall-AgueroUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ConcurrentApiCall-Aguero";
-			};
-			name = Debug;
-		};
-		CC786DDC2C6571AF00FE545E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UHP85CV3Z7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ignacia.aguero.ConcurrentApiCall-AgueroUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ConcurrentApiCall-Aguero";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,15 +512,6 @@
 			buildConfigurations = (
 				CC786DD82C6571AF00FE545E /* Debug */,
 				CC786DD92C6571AF00FE545E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CC786DDA2C6571AF00FE545E /* Build configuration list for PBXNativeTarget "ConcurrentApiCall-AgueroUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC786DDB2C6571AF00FE545E /* Debug */,
-				CC786DDC2C6571AF00FE545E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
